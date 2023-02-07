@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+.movie {  
+  background-color: #19212a;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.poster {
+  opacity: 1;
+  cursor: default;
+  height: 90%;
+  position: relative;
+  border-radius: 20px;
+}
+
+.movie__info {
+  padding: 50px;
+  width: 50%;
+  margin-left: 20px;
+  border-radius: 20px;
+  background-color: black;
+  opacity: 0.7;
+}
+
+h1 {
+  color: white;
+}
+
+.movie_date {
+  font-weight: 700;
+  color: white;
+}
+
+p {
+  font-weight: 300;
+  color: white;
+  padding-top: 20px;
+  
+}
