@@ -11,7 +11,7 @@ export default function SearchPage({ search, setCurrentMovie }) {
   useEffect(() => {
     async function fetchData() {
       const request = await axios.get(
-        `https:www.omdbapi.com/?i=tt3896198&apikey=5d41d2f2&s=${search}`
+        `https://www.omdbapi.com/?i=tt3896198&apikey=5d41d2f2&s=${search}`
       );
       setMovies(request.data.Search);
       console.log(request.data.Search);
